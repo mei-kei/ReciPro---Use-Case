@@ -9,6 +9,9 @@
             <mxGeometry x="80" y="70" width="690" height="502" as="geometry" />
           </mxCell>
         </UserObject>
+        <mxCell id="K74imUBrkdfwnfC6nYSW-2" value="&lt;div align=&quot;left&quot;&gt;&lt;li&gt;&lt;p class=&quot;my-0&quot;&gt;Customer initiates a bid via the Controller.&lt;/p&gt;Controller retrieves the Customer object.&lt;/li&gt;&lt;li&gt;Controller retrieves the Lot object.&lt;/li&gt;&lt;li&gt;Lot retrieves the current Bid object.&lt;/li&gt;&lt;li&gt;Controller creates a new Bid object with the customer and amount.&lt;/li&gt;&lt;li&gt;Controller asks the Lot to update its bid with the new Bid object.&lt;/li&gt;&lt;li&gt;&lt;p class=&quot;my-0&quot;&gt;Lot checks if the new bid amount is higher than the current bid.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p class=&quot;my-0&quot;&gt;If the new amount is higher, Lot updates its Bid object.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;Controller confirms the bid to the Customer.&lt;/li&gt;&lt;li&gt;&amp;nbsp;If the amount is not higher, Controller rejects the bid.&lt;/li&gt;&lt;/div&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="610" width="700" height="340" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
